@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+.box{
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+
+.box-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
