@@ -1,16 +1,36 @@
-h1{
+body{
+    background-color: #fcffd8;
+}
+
+.control > button{
+
+    background-color: #00d9ff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-basis: 100%;
+}
+
+.center{
     text-align: center;
 }
 
+.control{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .box{
-    position: relative;
+    display: grid;
+    place-items: center;
+    margin: auto;
     background-color: transparent;
     border: none;
 }
 
 .box-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    grid-area: 1 / -1 / 1 / -1;
+    font-size: 50px;
 }
